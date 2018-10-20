@@ -11,8 +11,8 @@ public class App {
 		System.out.println("Hello to OMMS main function");
 		
 		System.out.println("Visitor functions :" + new VisitorService().getServiceName());
-		System.out.println("Visitor functions :" + new MemberService().getServiceName());
-		System.out.println("Visitor functions :" + new AdminService().getServiceName());
+		System.out.println("Member functions :" + new MemberService().getServiceName());
+		System.out.println("Admin functions :" + new AdminService().getServiceName());
 
 	}
 
