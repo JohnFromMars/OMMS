@@ -1,5 +1,6 @@
 package main;
 
+import services.AdminService;
 import services.MemberService;
 import services.VisitorService;
 
@@ -11,6 +12,7 @@ public class App {
 		
 		System.out.println("Visitor functions :" + new VisitorService().getServiceName());
 		System.out.println("Visitor functions :" + new MemberService().getServiceName());
+		System.out.println("Visitor functions :" + new AdminService().getServiceName());
 
 	}
 
