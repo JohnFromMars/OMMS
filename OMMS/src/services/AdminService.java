@@ -9,6 +9,7 @@ public class AdminService {
 		serviceNames.add("Admin Function A");
 		serviceNames.add("Admin Function B");
 		serviceNames.add("Admin Function C");
+		serviceNames.add("Admin Function D");
 		return serviceNames;
 	}
 }
