@@ -10,7 +10,7 @@ public class AdminServiceTest {
 	@Test
 	public void testGetServiceNames() {
 
-		Assert.assertEquals("[Admin Function A, Admin Function B, Admin Function C]",
+		Assert.assertEquals("[Admin Function A, Admin Function B, Admin Function C, Admin Function D]",
 				new AdminService().getServiceName().toString());
 
 	}
