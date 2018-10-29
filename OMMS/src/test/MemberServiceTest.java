@@ -10,7 +10,7 @@ public class MemberServiceTest {
 	@Test
 	public void testGetServiceNames() {
 
-		Assert.assertEquals("[Member Function A, Member Function B, Member Function C]",
+		Assert.assertEquals("[Member Function B, Member Function C]",
 				new MemberService().getServiceName().toString());
 
 	}
